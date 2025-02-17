@@ -2,8 +2,11 @@
   "name": "ajs-homework-matchers",
   "version": "1.0.0",
   "main": "index.js",
+  "type": "module",
   "scripts": {
-    "test": "jest --coverage"
+    "test": "jest --coverage",
+    "build": "echo 'No build step required'",
+    "lint": "eslint ."
   },
   "author": "Sergei Zelenkov <sz.zelenkov@gmx.de>",
   "license": "ISC",
